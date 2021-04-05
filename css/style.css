@@ -332,9 +332,10 @@ pre {
 }
 .main-navigation .menu li a {
   color: #505050;
-  line-height: 4em;
+  line-height: 2.5em;
+  font-size: 20px;
   display: block;
-  padding: 0 21px;
+  padding: 0 20px;
 }
 .main-navigation .menu li:hover > a {
   color: #09f;
@@ -393,7 +394,7 @@ pre {
     main post area
 ====================================================*/
 #main {
-  background: #fff;
+  background: #F5F5F5;
   padding: 10px 0;
   margin-bottom: 10px;
 }
@@ -404,12 +405,12 @@ pre {
 }
 
  .post {
-  padding: 20px 20px 10px;
+  padding: 20px 20px 1px;
   background: #fff;
   margin-bottom: 10px;
   position: relative;
   overflow: hidden;
-  border-bottom:1px dashed #f4f4f4;border-radius:6px;
+  border-bottom:1px dashed #f4f4f4;border-radius:10px;
 }
 /*.post:hover{-webkit-transform:scale(1.02);-ms-transform:scale(1.02);transform:scale(1.02);box-shadow:0 0 20px 0 rgba(0,0,0,.1)}*/
 .post .featured {
@@ -432,7 +433,7 @@ pre {
   text-align: center;
 }
 .post .post-head .post-title {
-  font-size: 1.5em;
+  font-size: 20px;
   line-height: 1.35em;
   margin: 0;
 }
@@ -441,7 +442,7 @@ pre {
 }
 .post .post-head .post-title a:hover {
   text-decoration: none;
-  color: #09f;
+
 }
 .post .post-head .post-title a:focus {
   text-decoration: none;
@@ -454,6 +455,11 @@ pre {
   color: #959595;
   margin: 5px 0;
 }
+.post .post-meta {
+  color: #959595;
+  margin: 6px 0;
+}
+
 .post .post-head .post-meta span {
   margin-right: 5px;
   white-space: nowrap;
@@ -473,6 +479,7 @@ pre {
   float: left;
   overflow: hidden;
 }
+
 .post .post-media img {
   width: 100%;
   height: 100%;
@@ -484,6 +491,7 @@ pre {
   overflow: hidden;
   color: #666666;
 }
+ 
 .post .post-body {
   margin-top: 15px;
   padding: 25px 0;
