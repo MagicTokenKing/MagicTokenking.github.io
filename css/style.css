@@ -231,6 +231,7 @@ pre {
 }
 .carousel img {
   width: 100%;
+  border-radius:10px;
 }
 /*====================================================
     header
@@ -411,7 +412,7 @@ pre {
   position: relative;
   overflow: hidden;
   border-bottom:1px dashed #f4f4f4;border-radius:10px;
-}
+ }
 /*.post:hover{-webkit-transform:scale(1.02);-ms-transform:scale(1.02);transform:scale(1.02);box-shadow:0 0 20px 0 rgba(0,0,0,.1)}*/
 .post .featured {
   position: absolute;
