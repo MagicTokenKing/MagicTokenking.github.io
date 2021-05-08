@@ -3,12 +3,17 @@ Allow: /
 Allow: /home/
 Allow: /archives/
 Allow: /about/
+Allow: /categories/
+Allow: /tags/
+Allow: /resources/
 Disallow: /vendors/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
+
+
 Sitemap: http://bitbank.link/sitemap.xml
 Sitemap: http://bitbank.link/baidusitemap.xml
  
